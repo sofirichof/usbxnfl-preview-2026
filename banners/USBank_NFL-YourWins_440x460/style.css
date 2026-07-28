@@ -13,7 +13,6 @@
 #ctaC{left:24px;top:340px;width:157px;height:44px;border-radius:6px;overflow:hidden}
 #cta{position:relative;width:157px;height:44px;border-radius:6px;background:#cf2a36}
 #intro{left:0;top:0;width:440px;height:460px;background:#fff;z-index:40}
-#border{left:0;top:0;width:438px;height:458px;border:1px solid #000;z-index:50}
 #clicktag{left:0;top:0;width:440px;height:460px;cursor:pointer;z-index:55}
 #preload{left:0;top:0;width:440px;height:460px;background:#fff;z-index:60;visibility:hidden}
 #preload_svg{position:absolute;left:50%;top:50%;width:40px;height:40px;transform:translate(-50%,-50%);opacity:0}
