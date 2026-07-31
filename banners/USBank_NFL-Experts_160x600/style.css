@@ -1,0 +1,8 @@
+@charset "UTF-8";
+*{margin:0;padding:0;box-sizing:border-box}
+#container{position:absolute;left:0;top:0;width:160px;height:600px;overflow:hidden;background:#001358}
+#container>div{position:absolute}
+#stage{left:0;top:0;width:160px;height:600px}
+#art{display:block;width:160px;height:600px;will-change:transform}
+#intro{left:0;top:0;width:160px;height:600px;background:#fff;z-index:40}
+#clicktag{left:0;top:0;width:160px;height:600px;cursor:pointer;z-index:55}

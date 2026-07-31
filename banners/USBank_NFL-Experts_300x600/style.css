@@ -1,21 +1,8 @@
 @charset "UTF-8";
 *{margin:0;padding:0;box-sizing:border-box}
 #container{position:absolute;left:0;top:0;width:300px;height:600px;overflow:hidden;background:#001358}
-#bg{left:0;top:0;width:300px;height:600px;overflow:hidden;z-index:0}
-.bgL{position:absolute;display:block}
 #container>div{position:absolute}
-#photoC{left:0;top:0;width:300px;height:600px;overflow:hidden;z-index:1}
-#photo{position:absolute;left:0px;top:0px;width:300px;height:330px;display:block}
-#content{left:0;top:0;width:100%;height:100%;z-index:3}
-#content>div{position:absolute}
-#headline{left:0;top:0;width:100%;height:100%}
-#headArt{will-change:transform,opacity}
-#ctaC{left:22px;top:529px;width:120px;height:30px;border-radius:4px;overflow:hidden}
-#cta{position:relative;width:120px;height:30px;border-radius:4px;background:#cf2a36}
+#stage{left:0;top:0;width:300px;height:600px}
+#art{display:block;width:300px;height:600px;will-change:transform}
 #intro{left:0;top:0;width:300px;height:600px;background:#fff;z-index:40}
 #clicktag{left:0;top:0;width:300px;height:600px;cursor:pointer;z-index:55}
-#preload{left:0;top:0;width:300px;height:600px;background:#fff;z-index:60;visibility:hidden}
-#preload_svg{position:absolute;left:50%;top:50%;width:40px;height:40px;transform:translate(-50%,-50%);opacity:0}
-
-#photoC{clip-path:polygon(0 0,100% 0,100% 330px,0 209px)}
-
